@@ -1,0 +1,53 @@
+/* Horizontal Navigation Bar */
+.horizontal-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #8b8686; /* Background color for the horizontal nav */
+    overflow: hidden;
+}
+
+.horizontal-nav li {
+    float: left;
+}
+
+.horizontal-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal-nav li a:hover {
+    background-color: #ddd;
+    color: rgb(138, 130, 130);
+}
+
+/* Vertical Navigation Bar */
+.vertical-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px; /* Width of the vertical nav */
+    background-color: #17cbeb; /* Background color for the vertical nav */
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.vertical-nav li {
+    text-align: center;
+}
+
+.vertical-nav li a {
+    display: block;
+    color: rgb(44, 10, 122);
+    padding: 16px;
+    text-decoration: none;
+}
+
+.vertical-nav li a:hover {
+    background-color: #f7e708;
+    color: black;
+}
